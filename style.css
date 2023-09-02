@@ -1,0 +1,480 @@
+.logo{
+  margin-bottom: opx;
+}
+.tree{
+  width: 100px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav ul li a:hover{
+  color: black;
+  transition: 0.5s;
+  box-shadow: 3px 5px 2px 1px;
+  border-radius: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+background-image: url(Ruby.jpeg);
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 150px;
+  }
+  .lam{
+    margin-top: 0px;
+    line-height: 40px;
+    color: black;
+    margin-bottom: 0px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+  .bam{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: white;
+    margin-top: 0;
+    width: 800px;
+  }
+  .span1{
+    color: black;
+  }
+  .ban{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .saw{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid;
+    color: black;
+    font-size: 14px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  .saw:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    border: 2px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+  .saw:active{
+    opacity: 0.3;
+  }
+  .rap{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 14px;
+    margin-left: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  .rap:hover{
+    background-color: gray;
+    color: black;
+    transition: 0.5s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+  .rap:active{
+    opacity: 0.3;
+  }
+  /* homepage ends */
+  .write7{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+  }
+  /* .write1{
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+
+    font-family: 'Playfair Display', serif;
+  }
+  .write2{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  } */
+
+  .tar {
+    /* padding-right: 150px; */
+    width: auto;
+    height: auto;
+}
+  .details-wrapper {
+    width: 45vw;
+    margin: 0 auto;
+    background-color: #BFBFBF;
+    /* box-shadow:0 -1px 1px 5px #BFBFBF; */
+}
+
+details {
+    padding: .5rem;
+    font: 1rem/1.2 sans-serif;
+    width: 700px;
+    margin-left: 50px;
+    /* margin-right: 50px */
+}
+
+summary {
+    padding: .25rem 1rem;
+    background-color: rgb(21, 90, 94);
+    font: bold 1.25rem/2 sans-serif;
+    color: rgb(251, 249, 245);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    list-style: none;
+    /* Triangle not shown */
+}
+
+/* Triangle not shown - Style for Webkit-Browser */
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    padding-right: .25rem;
+    content: '+ ';
+    /* Instead of Triangle closed */
+}
+
+details[open] summary::before {
+    padding-right: .25rem;
+    font-style: italic;
+    content: '- ';
+    /* Instead of Triangle open */
+}
+
+/* Styling the summary in case of open 'details' */
+details[open] summary {
+    font-style: italic;
+}
+
+.details-content {
+    margin: 0;
+    padding: .25rem 1rem;
+    background-color: floralwhite;
+    color: rgb(97, 160, 211);
+}
+
+.details-content p {
+    font: 1.1rem/1.5 sans-serif;
+}
+
+details p {
+    background-color: #27535a;
+    color: white;
+    padding-left: 5px;
+}
+
+summary:hover {
+    background-color: #1a2e35;
+    transition: 0.2s;
+}
+
+
+  .rock{
+    width: 700px;
+    background-color: rgb(253, 116, 71);
+    background-color: transparent;
+    border-radius: 10px;
+  }
+  .olly{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .box{
+    background-color: chocolate;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 40%;
+    margin: 150px 0 0 430px;
+    /* height: px; */
+    /* margin-top: 190px; */
+    /* margin-left: 500px; */
+   box-shadow: 5px 4px 15px 6px;
+  }
+  .box:hover{
+    background-color: coral;
+    transition: 0.5s;
+    color: white;
+  }
+  .page{
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .page h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+  }
+  .page p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: #27535a;
+  }
+  .pag{
+    color: black;
+    font-size: 17px;
+  }
+  .heading{
+    color: black;
+    font-size: 20px;
+  }
+
+
+  .glitch-wrapper {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 39px;
+    text-align: center;
+    background-color: #222;
+ }
+ 
+ .glitch {
+    position: relative;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fdfdfd;
+    letter-spacing: 5px;
+    z-index: 1;
+ }
+ 
+ .glitch:before {
+    content: attr(data-glitch);
+    position: absolute;
+    top: 0;
+    left: -2px;
+    width: 100%;
+    color: #fff;
+    background-color: #222;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-before 3s infinite linear alternate-reverse;
+ }
+ 
+ .glitch:after {
+    content: attr(data-glitch);
+    position: absolute;
+    top: 0;
+    left: 2px;
+    width: 100%;
+    color: #fff;
+    background-color: #222;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-after 2s infinite linear alternate-reverse;
+ }
+ 
+ @keyframes noise-before {
+    0% {
+       clip: rect(61px, 9999px, 52px, 0);
+    }
+ 
+    5% {
+       clip: rect(33px, 9999px, 144px, 0);
+    }
+ 
+    10% {
+       clip: rect(121px, 9999px, 115px, 0);
+    }
+ 
+    15% {
+       clip: rect(144px, 9999px, 162px, 0);
+    }
+ 
+    20% {
+       clip: rect(62px, 9999px, 180px, 0);
+    }
+ 
+    25% {
+       clip: rect(34px, 9999px, 42px, 0);
+    }
+ 
+    30% {
+       clip: rect(147px, 9999px, 179px, 0);
+    }
+ 
+    35% {
+       clip: rect(99px, 9999px, 63px, 0);
+    }
+ 
+    40% {
+       clip: rect(188px, 9999px, 122px, 0);
+    }
+ 
+    45% {
+       clip: rect(154px, 9999px, 14px, 0);
+    }
+ 
+    50% {
+       clip: rect(63px, 9999px, 37px, 0);
+    }
+ 
+    55% {
+       clip: rect(161px, 9999px, 147px, 0);
+    }
+ 
+    60% {
+       clip: rect(109px, 9999px, 175px, 0);
+    }
+ 
+    65% {
+       clip: rect(157px, 9999px, 88px, 0);
+    }
+ 
+    70% {
+       clip: rect(173px, 9999px, 131px, 0);
+    }
+ 
+    75% {
+       clip: rect(62px, 9999px, 70px, 0);
+    }
+ 
+    80% {
+       clip: rect(24px, 9999px, 153px, 0);
+    }
+ 
+    85% {
+       clip: rect(138px, 9999px, 40px, 0);
+    }
+ 
+    90% {
+       clip: rect(79px, 9999px, 136px, 0);
+    }
+ 
+    95% {
+       clip: rect(25px, 9999px, 34px, 0);
+    }
+ 
+    100% {
+       clip: rect(173px, 9999px, 166px, 0);
+    }
+ }
+ 
+ @keyframes noise-after {
+    0% {
+       clip: rect(26px, 9999px, 33px, 0);
+    }
+ 
+    5% {
+       clip: rect(140px, 9999px, 198px, 0);
+    }
+ 
+    10% {
+       clip: rect(184px, 9999px, 89px, 0);
+    }
+ 
+    15% {
+       clip: rect(121px, 9999px, 6px, 0);
+    }
+ 
+    20% {
+       clip: rect(181px, 9999px, 99px, 0);
+    }
+ 
+    25% {
+       clip: rect(154px, 9999px, 133px, 0);
+    }
+ 
+    30% {
+       clip: rect(134px, 9999px, 169px, 0);
+    }
+ 
+    35% {
+       clip: rect(26px, 9999px, 187px, 0);
+    }
+ 
+    40% {
+       clip: rect(147px, 9999px, 137px, 0);
+    }
+ 
+    45% {
+       clip: rect(31px, 9999px, 52px, 0);
+    }
+ 
+    50% {
+       clip: rect(191px, 9999px, 109px, 0);
+    }
+ 
+    55% {
+       clip: rect(74px, 9999px, 54px, 0);
+    }
+ 
+    60% {
+       clip: rect(145px, 9999px, 75px, 0);
+    }
+ 
+    65% {
+       clip: rect(153px, 9999px, 198px, 0);
+    }
+ 
+    70% {
+       clip: rect(99px, 9999px, 136px, 0);
+    }
+ 
+    75% {
+       clip: rect(118px, 9999px, 192px, 0);
+    }
+ 
+    80% {
+       clip: rect(1px, 9999px, 83px, 0);
+    }
+ 
+    85% {
+       clip: rect(145px, 9999px, 98px, 0);
+    }
+ 
+    90% {
+       clip: rect(121px, 9999px, 154px, 0);
+    }
+ 
+    95% {
+       clip: rect(156px, 9999px, 44px, 0);
+    }
+ 
+    100% {
+       clip: rect(67px, 9999px, 122px, 0);
+    }
+ }
